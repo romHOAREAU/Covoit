@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
+var indexController = require('../controllers/indexController');
+
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Application de covoiturage' });
-});
+router.get('/',indexController.index);
 
 module.exports = router;
