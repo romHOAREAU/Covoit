@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+  h1= title
+  p Liste des lieux
+      ul
+        each lelieu in listeLieux
+          li= lelieu._libelle
