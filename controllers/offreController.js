@@ -13,3 +13,5 @@ exports.offre_detail = function(req, res, next) {
 exports.offre_ajout_post = function(req, res) {
     res.send('NOT IMPLEMENTED: Offre create POST');
 };
+
+// 
